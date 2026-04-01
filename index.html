@@ -171,19 +171,13 @@
                         <p>(713) 631-9371</p>
                     </div>
                 </div>
-                <div style="flex: 1.5; min-width: 300px; border-radius: 8px; overflow: hidden; height: 400px;">
-                    <iframe 
-                        width="100%" 
-                        height="100%" 
-                        frameborder="0" 
-                        style="border:0" 
-                        src="https://www.google.com/maps/embed/v1/place?key=REPLACE_WITH_ACTUAL_API_KEY_OR_USE_URL&q=We+Are+1+Barber+Shop+Houston+TX" 
-                        allowfullscreen>
-                    </iframe>
-                    <!-- Fallback if iframe doesn't load without API key -->
-                    <div style="background: var(--bg-light); display: flex; align-items: center; justify-content: center; height: 100%; border: 1px solid rgba(255,255,255,0.1);">
-                        <a href="https://www.google.com/maps/search/?api=1&query=We%20Are%201%20Barber%20Shop&query_place_id=ChIJic9YASO6QIYR7iEowSB682g" target="_blank" style="color: var(--gold); text-decoration: none; font-weight: 800; text-transform: uppercase;">Open in Google Maps</a>
-                    </div>
+                <div style="flex: 1.5; min-width: 300px; border-radius: 8px; overflow: hidden; height: 400px; background: var(--bg-light); display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.1); text-align: center; padding: 2rem;">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1.5rem;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <h3 style="color: var(--white); margin-bottom: 1rem; text-transform: uppercase;">Find us on Maps</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem; max-width: 300px;">8814 Homestead Rd # B, Houston, TX 77016</p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=We%20Are%201%20Barber%20Shop&query_place_id=ChIJic9YASO6QIYR7iEowSB682g" target="_blank" style="background: var(--gold); color: var(--black); padding: 1rem 2rem; text-decoration: none; font-weight: 800; text-transform: uppercase; border-radius: 4px; transition: 0.3s;">
+                        Open Google Maps
+                    </a>
                 </div>
             </div>
         </section>
